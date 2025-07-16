@@ -1,0 +1,2 @@
+kubectl apply -f backend/k8s-backend.yaml
+kubectl apply -f frontend/k8s-frontend.yaml
