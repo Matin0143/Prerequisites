@@ -1,0 +1,12 @@
+project/
+├── backend/
+│   ├── app.py
+│   ├── requirements.txt
+│   ├── Dockerfile
+│   └── k8s-backend.yaml
+├── frontend/
+│   ├── src/index.js
+│   ├── package.json
+│   ├── Dockerfile
+│   └── k8s-frontend.yaml
+└── k8s-namespace.yaml
