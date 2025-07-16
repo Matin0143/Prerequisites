@@ -1,1 +1,7 @@
 eval $(minikube docker-env)
+Now build the Docker images locally:
+# Backend
+docker build -t flask-backend:local ./backend
+
+# Frontend
+docker build -t express-frontend:local ./frontend
